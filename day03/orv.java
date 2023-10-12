@@ -49,3 +49,11 @@ class Derived extends Base {
         // base 클래스의 멤버 변수의 값을 반환
     }
 }
+
+/*
+ *  Child.getDerivedValue( ) : 200
+    child.getBaseValue( ) : 100
+    Child.getDerivedValue( ) : 7000
+    child.getBaseValue() : 9000
+    parent. getbasevalue() : 100
+ */
